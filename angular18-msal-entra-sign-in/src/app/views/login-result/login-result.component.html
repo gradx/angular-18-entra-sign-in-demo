@@ -1,0 +1,23 @@
+<span class="fw-bold">{{ message$ | async  }}</span>
+<hr />
+<div class="card bg-secondary" style="width: 32rem; display: inline-block;">
+    <div class="card-body">
+        <div class="container">
+            <div class="row">
+                <div class="col text-light fs-6">
+                    {{ authProvider.store.user()?.email }}
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <img style="border-radius: 50px;" src="{{authProvider.store.user()?.picture}}" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col text-light fs-2">
+                    Hi, {{ authProvider.store.user()?.given_name }}!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
