@@ -1,11 +1,12 @@
-import { Component, Inject } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AuthStoreProvider }  from './signal-stores/auth-store';
 import { DataService } from './services/data.service';
-import { MsalService, MsalModule } from '@azure/msal-angular';
+import { MsalService } from '@azure/msal-angular';
 import { RouterLink} from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { MsalBroadcastService } from '@azure/msal-angular';
+import {  } from '@angular/core';
 
 @Component({
   selector: 'app-root',

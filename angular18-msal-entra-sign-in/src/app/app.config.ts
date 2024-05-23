@@ -1,4 +1,4 @@
-import { ApplicationConfig  } from '@angular/core';
+import { ApplicationConfig, provideExperimentalZonelessChangeDetection  } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { provideHttpClient, withInterceptorsFromDi, HTTP_INTERCEPTORS, withFetch } from '@angular/common/http';
 import { routes } from './app.routes';
@@ -9,6 +9,7 @@ import { environment } from '../environments/environment';
 
 export const appConfig: ApplicationConfig = {
   providers: [ 
+    provideExperimentalZonelessChangeDetection(),
     provideRouter(routes),
     provideHttpClient(withInterceptorsFromDi(), withFetch()),  
     {
