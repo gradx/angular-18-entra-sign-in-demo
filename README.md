@@ -1,6 +1,6 @@
 # MSAL v3 + Angular 18 + Popup/Redirect demo
 
-Complete e2e demo of an integration with Microsoft Entra using MSAL v3 clientside and .NET 8.0 Web API server-side
+Complete e2e demo of an integration with Microsoft Entra using MSAL v3 (client) and .NET 8.0 Web API (server)
 
 **Includes:** 
 - Sign In
