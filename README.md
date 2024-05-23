@@ -8,7 +8,7 @@ Complete e2e demo of an integration with Microsoft Entra using MSAL v3 (client) 
 - Token validation server-side
 - JWT setup in Web Api
 - Identity managed in NgRx Signal Store
-- provideExperimentalZonelessChangeDetection
+- _provideExperimentalZonelessChangeDetection_
 
 Designed as a skeleton project that can help bootstrap a new application with minimal changes
 
