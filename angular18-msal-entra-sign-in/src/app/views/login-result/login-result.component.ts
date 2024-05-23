@@ -38,7 +38,7 @@ export class LoginResultComponent {
   load() {
     this.authService.handleRedirectObservable().subscribe({ 
       next: (result: AuthenticationResult) => {
-         if (!this.authService.instance.getActiveAccount() && this.authService.instance.getAllAccounts().length > 0) {
+         if (result != null && result.account != null) {
             this.authService.instance.setActiveAccount(result.account);
             this.loadProfile();  
          }
