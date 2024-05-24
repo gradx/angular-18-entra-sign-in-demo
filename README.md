@@ -8,7 +8,7 @@ Complete e2e demo of an integration with Microsoft Entra using MSAL v3 (client) 
 - Token validation server-side
 - JWT setup in Web Api
 - Identity managed in NgRx Signal Store
-- [_provideExperimentalZonelessChangeDetection_](https://netbasal.com/navigating-the-new-era-of-angular-zoneless-change-detection-unveiled-e7404de69b89)
+- ~~[_provideExperimentalZonelessChangeDetection_](https://netbasal.com/navigating-the-new-era-of-angular-zoneless-change-detection-unveiled-e7404de69b89)~~ causes error with client_id not found
 
 Designed as a skeleton project that can help bootstrap a new application with minimal changes
 
