@@ -2,7 +2,7 @@
 
 ![Angular](https://img.shields.io/badge/Angular-v18-blue)
 ![.NET 8.0](https://img.shields.io/badge/.NET-v8.0-blue)
-![GitHub License](https://img.shields.io/github/license/gradx/GrpcHttp3Net80Demo)
+![GitHub License](https://img.shields.io/github/license/gradx/angular-18-entra-sign-in-demo)
 
 Complete e2e demo of an integration with Microsoft Entra using MSAL v3 (client) and .NET 8.0 Web API (server)
 
