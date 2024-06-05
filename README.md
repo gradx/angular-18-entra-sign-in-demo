@@ -1,5 +1,8 @@
 # MSAL v3 + Angular 18 + Popup/Redirect demo
 
+![Angular](https://img.shields.io/badge/Angular-v18-blue)
+![.NET 8.0](https://img.shields.io/badge/.NET-v8.0-blue)
+
 Complete e2e demo of an integration with Microsoft Entra using MSAL v3 (client) and .NET 8.0 Web API (server)
 
 **Includes:** 
